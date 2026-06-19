@@ -1,4 +1,4 @@
-// analyzer/rules/noConnectionPool.js — detects database connections created per-request instead of pooled
+//detects database connections created per-request instead of pooled
 
 /**
  * Heuristic check for the "new connection per request" anti-pattern.
