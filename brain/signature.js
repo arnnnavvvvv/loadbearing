@@ -1,3 +1,5 @@
+//failure-signature detection from load curve shape
+
 export const CAUSES = {
   CONNECTION_POOL_EXHAUSTION: "connection_pool_exhaustion",
   UNINDEXED_QUERY: "unindexed_query",
