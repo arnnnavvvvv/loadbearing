@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Environment / secrets
+.env
+.env.local
+.env.*.local
+
+# Temporary repo clones (the isolated runner pulls target repos here)
+/tmp/
+clones/
+
+# Logs
+*.log
+npm-debug.log*
+
+# k6 output artifacts
+*.k6.json
+summary.json
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
