@@ -1,0 +1,13 @@
+{
+  "name": "loadbearing",
+  "version": "0.1.0",
+  "description": "Pre-launch load & performance testing for vibe-coded apps. Finds where an app breaks under load, explains why in plain English, and hands back a fix.",
+  "type": "module",
+  "scripts": {
+    "start": "node api/server.js",
+    "dev": "node --watch api/server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
